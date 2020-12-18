@@ -1,0 +1,33 @@
+.animation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.one{
+    height: 720px;
+    width: 1200px;
+}
+
+.two, .three, .four{
+    border: 2px solid gray;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+button{
+    padding: 12px;
+    border-radius: 12px;
+    border-color: rgb(2, 61, 2);
+    outline: 0;
+    font-size: 20px;
+    color: orangered;
+}
